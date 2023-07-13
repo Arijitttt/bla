@@ -1,0 +1,139 @@
+.App {
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/*
+*/
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+.nav-ul :hover{
+  color: #282c34;
+  transition: 0.5s;
+  font-size: 15px;
+}
+
+
+.nav-ul li a{
+  
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  
+}
+.nav-ul{
+  
+  font-size: 13px;
+  padding: 5px;
+  margin: 0;
+  background-color: crimson;
+}
+.nav-right{
+  text-align: right;
+}
+.logo{
+  width: 83px;
+  float: left;
+  border-radius: 3%;
+  margin-top: 4px;
+  margin-left: 5px;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: crimson;
+  color: #fff;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.mb-3{
+  margin: 20px 0px;
+  padding: 5px;
+  width: 300px;
+  
+}
+.btnn{
+  position: absolute;
+right: 50%;
+padding-left:50px ;
+padding-right: 50px;
+}
+Button{
+  width: 165px;
+  height: 45px;
+  
+}
+.invalid-inp{
+  color: rgb(166, 0, 0);
+  display: block;
+  margin-top: -17px;
+  margin-left: 12px;
+  
+
+}
+.product-list{
+  text-align: center;
+  margin-top: 45px;
+}
+.product-list ul li{
+  display: inline-block;
+  border: 1px solid crimson;
+  padding: 7px;
+  width: 200px;
+  font-size: 13px;
+}
+.product-list ul{
+  margin: 0px;
+}
+.btn-secondary{
+  width: 75px;
+  height: 27px;
+  padding-bottom: 22px;
+  font-size: 10px;
+}
+.mb-4{
+  height: 60px;
+  padding: 10px;
+  width: 400px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
